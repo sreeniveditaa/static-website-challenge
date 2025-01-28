@@ -56,7 +56,7 @@ img, embed, object, video {
 
 
 ul, li {
-	list-style: none;
+	list-style-type:none;
 	margin: 0;
 	padding: 0; 
 }
@@ -710,6 +710,8 @@ ul.portfolio-list li a:hover {
 	color: rgba(255, 255, 255, .75);
 	border: 2px solid #eee;
 	margin: 10px 5px;
+	border-radius: 20px;
+	padding: 10px;
 }
 
 .email-list-section input[type=text]:focus {
@@ -823,8 +825,9 @@ ul.pricing-table .button-1:hover {
 }
 
 ul.pricing-table .button-2:hover {
-	background-color: #777;
 	color: #fff;
+	background-color: #42966e;
+	border-color: #42966e;
 }
 
 ul.pricing-table ul.features li {
